@@ -8,4 +8,4 @@ fi
 
 cd $PROJECT_PATH
 
-make
+make --no-print-directory
