@@ -2,14 +2,19 @@
 PWD=`pwd`
 
 default:
-	date
+	make new-line
+	make add
+	make commit
+	make push
 
 ################################################################
 ####                       Command                         #####
 ################################################################
 
+DATE = $(shell /bin/date)
+
 new-line:
-	date >> date.md
+	echo "- "${DATE} >> date.md
 
 add:
 	git add .
