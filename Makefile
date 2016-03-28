@@ -1,5 +1,6 @@
 
 default:
+	make pull
 	make new-line
 	make add
 	make commit
