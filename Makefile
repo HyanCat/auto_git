@@ -20,5 +20,8 @@ add:
 commit:
 	git commit -m "update date."
 
+pull:
+	git pull origin master
+
 push:
 	git push -u origin master
