@@ -1,6 +1,4 @@
 
-PWD=`pwd`
-
 default:
 	make new-line
 	make add
