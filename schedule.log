@@ -225,3 +225,22 @@ make new-line
 echo "- "Sat Apr  9 20:00:10 CST 2016 >> date.md
 make add
 git add .
+make commit
+git commit -m "update date."
+[master 18db215] update date.
+ 2 files changed, 20 insertions(+)
+make push
+git push -u origin master
+To git@github:HyanCat/auto_git.git
+   caaaa5f..18db215  master -> master
+Branch master set up to track remote branch master from origin.
+make pull
+git pull origin master
+Warning: Permanently added the RSA host key for IP address '192.30.252.122' to the list of known hosts.
+From github:HyanCat/auto_git
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+make new-line
+echo "- "Sun Apr 10 20:00:09 CST 2016 >> date.md
+make add
+git add .
