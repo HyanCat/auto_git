@@ -1850,3 +1850,21 @@ make new-line
 echo "- "Fri Jul  8 20:00:14 CST 2016 >> date.md
 make add
 git add .
+make commit
+git commit -m "update date."
+[master 48a56b4] update date.
+ 2 files changed, 19 insertions(+)
+make push
+git push -u origin master
+To git@github:HyanCat/auto_git.git
+   b961827..48a56b4  master -> master
+Branch master set up to track remote branch master from origin.
+make pull
+git pull origin master
+From github:HyanCat/auto_git
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+make new-line
+echo "- "Sat Jul  9 20:00:11 CST 2016 >> date.md
+make add
+git add .
